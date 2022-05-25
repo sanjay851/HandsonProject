@@ -511,8 +511,8 @@ static boolean solvable(BinaryTree node) {
 <p>
     And we get these results:
 </p>
-<pre>
-    <b>Entering solvable(Root)
+<pre><b>
+Entering solvable(Root)
 |  Entering solvable(A)
 |  |  Entering solvable(C)
 |  |  |  Entering solvable(null)
@@ -532,7 +532,8 @@ static boolean solvable(BinaryTree node) {
 |  |  solvable(E) returns true
 |  solvable(B) returns true
 solvable(Root) returns true
-true</b>
+true
+</b>
 </pre>
 <p>
     <b>Trick #3: Never discard your debugging statements.</b> Writing debugging statements 
@@ -877,7 +878,7 @@ static boolean no(BinaryTree node) {
         <p>
             Here is some output from the program:
         </p>
-<pre>
+<pre><h3>
 <span style="color: blue;">16.</span><b> WHITE  WHITE  WHITE  _____  BLACK  BLACK  BLACK</b>
 <span style="color: blue;">15.</span><b> WHITE  WHITE  WHITE  BLACK  _____  BLACK  BLACK</b>
 <span style="color: blue;">14.</span><b> WHITE  WHITE  _____  BLACK  WHITE  BLACK  BLACK</b>
@@ -894,6 +895,7 @@ static boolean no(BinaryTree node) {
 <span style="color: blue;">3.</span><b>  BLACK  BLACK  WHITE  BLACK  _____  WHITE  WHITE</b>
 <span style="color: blue;">2.</span><b>  BLACK  BLACK  _____  BLACK  WHITE  WHITE  WHITE</b>
 <span style="color: blue;">1.</span><b>  BLACK  BLACK  BLACK  _____  WHITE  WHITE  WHITE</b>
+</h3>
 </pre>
 <p>
     Notice that the solution is given in reverse order: BLACK starts out on the left and WHITE on 
