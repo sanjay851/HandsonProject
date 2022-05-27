@@ -1,0 +1,23 @@
+h1{
+    color: red;
+}
+h2{
+    color: orangered;
+}
+ol{
+    color: maroon;
+}
+span{
+    background-color: yellow;
+}
+ul{
+    color: maroon;
+    letter-spacing: 3px;
+}
+p{
+    color: maroon;
+}
+strong{
+    color: maroon;
+    background-color: yellow;
+}

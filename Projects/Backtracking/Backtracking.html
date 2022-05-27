@@ -621,10 +621,11 @@ static boolean no(BinaryTree node) {
      one end (say, the left), the white marbles all at the other end, and 
      a free space in between.
  </p>
-                        <!--Table Creation-->      
-    <table style="border-collapse: collapse; background-color: silver;" align="center" border="">
+                        <!--Table Creation-->   
+                        <!--div style="text-align: center;"><b>Starting position:</b></div-->   
+        
+   <table style="border-collapse: collapse; background-color: silver;" align="center" border="">
         <tr>
-         
             <td>
                 <img src="./ImageBT/black-ball.gif">
             </td>
@@ -675,122 +676,171 @@ static boolean no(BinaryTree node) {
  <p>
     For example, you could make the following sequence of moves:
  </p>
- <div style="text-align: center;"><b>Starting position:</b></div><br>
-    <table style="border-collapse: collapse; background-color: silver;" align="center" border="">
-        <tr>
-            <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td width="44">
 
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
-            </td>
-        </tr>
-    </table><br>
-    <div style="text-align: center;"><b>Black moves ahead:</b></div><br>
-    <table style="border-collapse: collapse; background-color: silver;" align="center" border="">
-        <tr>
-            <td>
-                <img src="./ImageBT/black-ball.gif">
-             </td>
-            <td width="44">
-            </td>
-            <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
-            </td>
-        </tr>
-    </table><br>
-    <div style="text-align: center;"><b>White jumps:</b></div><br>
-    <table style="border-collapse: collapse; background-color: silver;" align="center" border="">
-        <tr>
-            <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
-            </td>
-            <td >
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td width="44">
-                
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
-            </td>
-        </tr>
-    </table><br>
-    <div style="text-align: center;"><b>Black moves ahead:</b></div><br>
-    <table style="border-collapse: collapse; background-color: silver;" align="center" border="">
-        <tr>
-            <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
-            </td>
-            <td width="44">
 
-            </td>
-            <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
-            </td>
-        </tr>
-    </table><br>
-    <div style="text-align: center;"><b>Black jumps:</b></div><br>
-    <table style="border-collapse: collapse; background-color: silver;" align="center" border="">
+    <table  align="center">
         <tr>
-            <td width="44"></td>
             <td>
-                <img src="./ImageBT/white-ball.gif">
+                <b>Starting position:</b>
             </td>
             <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
+                <table style="border-collapse: collapse; background-color: silver;" border="">
+                    <tr>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td width="44">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                    </tr>
+                </table>
             </td>
         </tr>
     </table><br>
-    <div style="text-align: center;"><b>White moves ahead:</b></div><br>
-    <table style="border-collapse: collapse; background-color: silver;" align="center" border="">
+    <table align="center">
         <tr>
-            <td width="44"></td>
             <td>
-                <img src="./ImageBT/white-ball.gif">
+                <b>Black moves ahead:</b>
             </td>
             <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/black-ball.gif">
-            </td>
-            <td>
-                <img src="./ImageBT/white-ball.gif">
+                <table style="border-collapse: collapse; background-color: silver;" border="">
+                    <tr>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                         </td>
+                        <td width="44">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                    </tr>
+                </table>
             </td>
         </tr>
     </table><br>
-    <div style="text-align: center;"><b>Stuck!</b></div>
+    <table align="center">
+        <tr>
+            <td>
+                <b>White jumps:</b>
+            </td>
+            <td>
+                <table style="border-collapse: collapse; background-color: silver;" border="">
+                    <tr>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                        <td >
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td width="44">
+                            
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table><br>
+    <table align="center">
+        <tr>
+            <td>
+                <b>Black moves ahead:</b>
+            </td>
+            <td>
+                <table style="border-collapse: collapse; background-color: silver;" border="">
+                    <tr>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                        <td width="44">
+            
+                        </td>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table><br>
+    <table align="center">
+        <tr>
+            <td>
+                <b>Black jumps:</b>
+            </td>
+            <td>
+                <table style="border-collapse: collapse; background-color: silver;" border="">
+                    <tr>
+                        <td width="44"></td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table><br>
+    <table align="center">
+        <tr>
+            <td>
+                <b>White moves ahead:</b>
+            </td>
+            <td>
+                <table style="border-collapse: collapse; background-color: silver;" border="">
+                    <tr>
+                        <td width="44"></td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/black-ball.gif">
+                        </td>
+                        <td>
+                            <img src="./ImageBT/white-ball.gif">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table><br>
+    <p align="center"><b>Stuck!</b></p>
         <p>
             Now to the program. The main program will initialize the board, and call a recursive backtracking routine 
             to attempt to solve the puzzle. The backtracking routine will either succeed and print out a winning path, 
