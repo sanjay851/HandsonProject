@@ -1,3 +1,64 @@
-h1{
-    color: aquamarine;
+.container{
+    width: 100%;
+    margin-left: 25%;
+    padding: 45px;
+    margin-top: 5%;
+}
+.card{
+    font-size: xx-large;
+}
+.fa-solid{
+   color: darkorange;
+   font-size: xx-large;
+}
+.card1{
+    display: inline-block;
+    border: 1px solid red;
+    width: 15%;
+    height: 250px;
+    text-align: center;
+    color: red;
+    box-shadow: 5px 5px 15px silver;
+}
+.item{
+    border: 1px solid red;
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    padding: 15px;
+    color: red;
+    position: absolute;
+    margin: 85px;
+    margin-left: 1px;
+}
+.add{
+    display: inline-block;
+    border: 1px solid orangered;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    border-radius: 50px;
+    font-size: x-large;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.back1{
+    font-size: xx-large;
+    font-family: Arial Black; 
+    padding-left: 100px;
+}
+.trip{
+    display: inline-block;
+    border: 1px solid red;
+    width: 25%;
+    height: 255px;
+    text-align: center;
+    color: red;
+}
+.main{
+    filter: blur(5px);
 }
