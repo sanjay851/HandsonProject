@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS HANDSON-4</title>
+    <link rel="stylesheet" href="./style4.css">
+</head>
+<body>
+    <div class="uline">OUR OFFERINGSs</div><br>
+    <div class="copy">
+        <ul>
+            <li>Home</li>
+            <li>Contact Us</li>
+            <li>Review Us</li>
+        </ul>
+    </div><br>
+    <div id="fdiv">
+        <div class="fdiv1">
+           &nbsp;&nbsp; Lorem,ipsum dolor sit amet consectetur adipisicing<br>
+           &nbsp;&nbsp; elit.Iste impedit nisi ipsam dolorem veritatis ea<br>
+           &nbsp;&nbsp; provident facere obcaecati necessitatibus necessitatibus esse!
+        </div>
+        <div class="fdiv2">
+            &nbsp;&nbsp; Lorem,ipsum dolor sit amet consectetur adipisicing<br>
+           &nbsp;&nbsp; elit.Iste impedit nisi ipsam dolorem veritatis ea<br>
+           &nbsp;&nbsp; provident facere obcaecati necessitatibus necessitatibus esse!
+        </div>
+        <div class="fdiv2">
+            &nbsp;&nbsp; Lorem,ipsum dolor sit amet consectetur adipisicing<br>
+           &nbsp;&nbsp; elit.Iste impedit nisi ipsam dolorem veritatis ea<br>
+           &nbsp;&nbsp; provident facere obcaecati necessitatibus necessitatibus esse!
+        </div>
+        <div class="fdiv3">
+            &nbsp;&nbsp; Lorem,ipsum dolor sit amet consectetur adipisicing<br>
+           &nbsp;&nbsp; elit.Iste impedit nisi ipsam dolorem veritatis ea<br>
+           &nbsp;&nbsp; provident facere obcaecati necessitatibus necessitatibus esse!
+        </div>
+    </div><br><br>
+    <div class="Jee">OUR TOP PERFORMER IN JEE ADVANCE</div><br>
+    <div class="container">
+        <div class="d1">
+            <ul class="d1b">
+                <li>AKASH GUPTA</li><br>
+                <li>213/300</li><br>
+                <li>GOT IIT BOMBAY</li>
+            </ul>
+        </div>
+        <div class="d1">
+            <ul class="d1b">
+                <li>RISHAV</li><br>
+                <li>203/300</li><br>
+                <li>GOT DELHI</li>
+            </ul>
+        </div>
+        <div class="d1">
+            <ul class="d1b">
+                <li>Garav Raj</li><br>
+                <li>192/300</li><br>
+                <li>GOT IIT ROORKEE</li>
+            </ul>
+        </div>
+        <div class="d1">
+            <ul class="d1b">
+                <li>Shivam chauhan</li><br>
+                <li>176/300</li><br>
+                <li>GOT IIT KANPUR</li>
+            </ul>
+        </div>
+    </div><br>
+    <div id="maindiv">
+        <div class="div1">THE BEST PLACE FOR THE BEST CAREER.</div><br>
+        <div class="div2">You can ask doubt<br> in our doubt section.</div>
+        <div class="div3">Get 30% Off by applying code<br> 
+            while purchasing course.
+        </div>
+        <div class="div4">We assure that your hard <br>work & our techin will <br>give bright result.</div>
+        <div class="div5">Lorem ipsum dolor sit amet consectetur adipiscing elit.provident temporibus dolore velit
+    ,quis quos ducimus natus cupiditate adipisci tenetur explicabo sint, aperiam quidem qui vitae optio reiciendis 
+    quasi soluta assumenda officiis consequuntur labore.blandtiis nisi temporibus debitis culpa dicta?
+        </div>
+        <div class="div6">
+            <ol>
+                <li>Study<br> Material</li><hr>
+                <li>Tests </li><hr>
+                <li>Doubt<br> Mentors</li><hr>
+                <li>Lecture</li><hr>
+                <li>Our<br>Subscription</li><hr>
+                <li>Our<br>faculty</li><hr>
+            </ol>
+        </div>
+        <div class="div7">ALL THE BEST!</div>
+    </div>
+</body>
+</html>
+.uline{
+    text-decoration: underline;
+    text-align: center;
+    height:25px;
+    width:100%;
+    font-size:x-large;
+    display: block;
+   background-image: linear-gradient(to right, red, green, yellow);
+}
+.copy{
+    border: 3px solid red;
+    width: 40%;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 20%;
+    background-color: cornflowerblue;
+    font-size: small;
+    padding-left: 250px;
+}
+#fdiv{
+    border: 1px solid red;
+    width: 100%;
+    height: 115px;
+    background-color: aqua;
+    display: inline-block;
+    border-radius: 10px;
+}
+.fdiv1{
+    border: 2px solid green;
+    width: 28%;
+    height: 55px;
+    font-size: small;
+    font-weight: bolder;
+    border-radius: 5px;
+    display: inline-block;
+} 
+.fdiv2{
+    border: 2px solid green;
+    width: 28%;
+    height: 55px;
+    font-size: small;
+    font-weight: bolder;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.fdiv3{
+    border: 2px solid green;
+    width: 28%;
+    height: 50px;
+    font-size: small;
+    font-weight: bolder;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 442px;
+}
+.Jee{
+    width: 100%;
+    height: 30px;
+    text-decoration: underline crimson;
+    text-align: center;
+    background-image: linear-gradient(to right, red,yellow,red);
+}
+.container{
+    border: 2px solid green;
+    width: 100%;
+    height: 200px;
+    background-image: radial-gradient(rgba(0, 0, 255, 0.695),rgba(17, 67, 193, 0.946), rgb(92, 190, 31));
+}
+.d1{
+    border: 2px solid red;
+    width: 15%;
+    height: 85px;
+    background-color: yellow;
+    color: crimson;
+    font-weight: bolder;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding-bottom: 2px;
+    font-size: small;
+    margin-left: 100px;
+    margin-top: 55px;
+    display: inline-block;
+}
+.d1b{
+    list-style-type: none;
+    margin: 0;
+    margin-left: 10PX;
+}
+#maindiv{
+    display: grid;
+    grid-template-areas: 
+    "div1 div1 div1 div1 div1 div1 div1 div1 div1 div1"
+    "div2 div2 div2 div3 div3 div3 div4 div4 div4 div6"
+    "div5 div5 div5 div5 div5 div5 div5 div5 div5 div6"
+    "div7 div7 div7 div7 div7 div7 div7 div7 div7 div7";
+    border: 1px solid green;
+    gap: 10px;
+}
+div{
+    /* border: 2px solid red; */
+}
+.div1{
+    grid-area: div1;
+    background-color: rgb(236, 32, 69);
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.div2{
+    grid-area: div2;
+    background-color: rgb(93, 238, 93);
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-size:x-large;
+}
+.div3{
+    grid-area: div3;
+    background-color:rgb(76, 191, 236);
+    color: white;
+    font-weight: bolder;
+    font-size:x-large;
+    
+}
+.div4{
+    grid-area: div4;
+    background-color: rgb(72, 72, 237);
+    color: white;
+    font-weight: bolder;
+    font-size:large;
+}
+.div5{
+    grid-area: div5;
+   background-color: rgb(245, 177, 20);
+   color: white;
+   font-weight: bolder;
+   font-size:x-large;
+   height: 150px;
+}
+.div6{
+    grid-area: div6;
+    background-color: rgb(40, 43, 50);
+    color: white;
+    font-size: small;
+}
+.div7{
+    grid-area: div7;
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
