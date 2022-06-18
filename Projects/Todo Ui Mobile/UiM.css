@@ -1,0 +1,312 @@
+body{
+    padding: 40px;
+    text-align: center;
+}
+#main{
+    width: 90%;
+    padding: 15px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+    margin-top: -10px;
+} 
+.fa-solid
+{
+    background-color: white;
+    color: orangered;
+    font-size:xx-large;
+}
+.card1{
+    border: 1px solid red;
+     width: 250px;
+    height: 200px; 
+    text-align: center;
+    color: red;
+    box-shadow: 5px 5px 15px silver;
+    float: left;
+    margin-bottom: 40px;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.trip{
+    text-decoration: none;
+    color: red;
+}
+#container{
+    display: flex;
+    width: 25%;
+    margin-left: 350px;
+    margin-top: -315px;
+   
+}
+.add1{
+    border: 1px solid red;
+     width: 250px;
+    height: 200px; 
+    text-align: center;
+    color: red;
+    box-shadow: 5px 5px 15px silver;
+    border-radius: 15px;
+    margin-left: 60px;
+    background-color:white;
+}
+.bs{
+    color:white;
+    border: 1px solid red;
+    background-color: orangered;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: large;
+    width: 30%;
+}
+.good{
+    filter: blur(7px);
+}
+#paris{
+    width: 25%;
+    height: 410px;
+    border: 1px solid black;
+    margin-left: 400px;
+    display: flex;
+    margin-top: 25px;
+}
+.page3{
+    float: left;
+    border: 1px solid red;
+    width: 200px;
+   height: 300px; 
+   text-align: center;
+   color: red;
+   box-shadow: 5px 5px 15px silver;
+   border-radius: 15px;
+   margin-left:-60%;
+   background-color:white;
+   margin-top: 70px;
+}
+#ld{
+    display: flex;
+    width: 30%;
+    height: 250px;
+    margin-left: 30%;
+    margin-top:-340px;
+}
+.ldc{
+    border: 1px solid red;
+    width: 250px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 20%;
+    color: red;
+    background-color: white;
+    border-radius: 15px;
+    z-index: 1;
+}
+#goblur{
+    filter: blur(5px);
+}
+ @media (min-width:320px) and (max-width:480px){
+   #main{
+    width: 55%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-top: -100px;
+    margin-left:10px ;
+   }
+   .card1{
+    border: 1px solid red;
+    width: 130px;
+   height: 40px; 
+   text-align: center;
+   color: silver;
+   box-shadow: 5px 5px 15px silver;
+   margin-bottom: 40px;
+   margin: -10px;
+   margin: 1px;
+   border-radius: 5px;
+   }
+   .task{
+    visibility: hidden;
+   }
+   .pt{
+    visibility: hidden;
+   }
+   hr{
+    visibility: hidden;
+   }
+   .ttp{
+    color: silver;
+   }
+   .tl{
+    font-size: xx-large;
+    margin-left: -55px;
+    
+   }
+   .ad{
+    visibility: hidden;
+   }
+   .fa-solid
+   {
+       background-color: white;
+       color: orangered;
+       font-size:x-large;
+       margin-right: 35px;
+       margin-bottom: 20px;
+   }
+   #container{
+    display: flex;
+    width: 50%;
+    margin-left: 350px;
+    margin-top: -315px;
+}
+.add1{
+    border: 1px solid red;
+     width: 200px;
+    height: 200px; 
+    text-align: center;
+    color: red;
+    box-shadow: 5px 5px 15px silver;
+    border-radius: 15px;
+    margin-left: -355px;
+    background-color:white;
+    z-index: 1;
+}
+.good{
+    filter: blur(5px);
+}
+#paris{
+    width: 100%;
+    height: 410px;
+    border: 1px solid black;
+    margin-left: 15px;
+    display: flex;
+    margin-top: 25px;
+}
+.page3{
+    float: left;
+    border: 1px solid red;
+    width: 200px;
+   height: 300px; 
+   text-align: center;
+   color: red;
+   box-shadow: 5px 5px 15px silver;
+   border-radius: 15px;
+   margin-left:-60%;
+   background-color:white;
+   margin-top: 70px;
+}
+}
+@media (min-width:480px) and (max-width:1024px)
+{
+    #main{
+        width: 90%;
+        padding: 15px;
+        height: 200px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        margin: 100px auto;
+        margin-top: -10px;
+    } 
+    .fa-solid
+    {
+        background-color: white;
+        color: orangered;
+        font-size:xx-large;
+    }
+    .card1{
+        border: 1px solid red;
+         width: 250px;
+        height: 200px; 
+        text-align: center;
+        color: red;
+        box-shadow: 5px 5px 15px silver;
+        float: left;
+        margin-bottom: 40px;
+    }
+    .a{
+        text-decoration: none;
+        color: black;
+    }
+    .trip{
+        text-decoration: none;
+        color: red;
+    }
+    #container{
+        display: flex;
+        width: 25%;
+        margin-left: 350px;
+        margin-top: -315px;
+       
+    }
+    .add1{
+        border: 1px solid red;
+         width: 250px;
+        height: 200px; 
+        text-align: center;
+        color: red;
+        box-shadow: 5px 5px 15px silver;
+        border-radius: 15px;
+        margin-left: 60px;
+        background-color:white;
+    }
+    .bs{
+        color:white;
+        border: 1px solid red;
+        background-color: orangered;
+        border-radius: 25px;
+        padding: 5px;
+        font-size: large;
+        width: 30%;
+    }
+    .good{
+        filter: blur(7px);
+    }
+    #paris{
+        width: 25%;
+        height: 410px;
+        border: 1px solid black;
+        margin-left: 400px;
+        display: flex;
+        margin-top: 25px;
+    }
+    .page3{
+        float: left;
+        border: 1px solid red;
+        width: 200px;
+       height: 300px; 
+       text-align: center;
+       color: red;
+       box-shadow: 5px 5px 15px silver;
+       border-radius: 15px;
+       margin-left:-60%;
+       background-color:white;
+       margin-top: 70px;
+    }
+    #ld{
+        display: flex;
+        width: 30%;
+        height: 250px;
+        margin-left: 30%;
+        margin-top:-340px;
+    }
+    .ldc{
+        border: 1px solid red;
+        width: 250px;
+        height: 150px;
+        margin-top: 60px;
+        margin-left: 20%;
+        color: red;
+        background-color: white;
+        border-radius: 15px;
+        z-index: 1;
+    }
+    #goblur{
+        filter: blur(5px);
+    }
+}
