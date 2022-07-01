@@ -1,0 +1,334 @@
+body{
+    background-image: url(./Image/shara\ desert.jpg);
+}
+.logo{
+    margin-left: 55px;
+    margin-top: 25px;
+}
+#btn{
+    display: flex;
+    float: right;
+    margin: 25px;
+}
+.hra{
+    margin: 20px;
+    margin-top: 0px;
+    margin-right: 25px;
+    color: white;
+}
+#sahara{
+    position: relative;
+    margin-left: 65px;
+    color: white;
+    margin-top: 190px;
+}
+h1{
+    font-size: 100px;
+}
+.para{
+    position: absolute;
+    font-size: small;
+    margin-top: -65px;
+}
+.btn1{
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "div1 div2 "
+    "div3 div4 ";
+    margin-left: 680px;
+    margin-top: -400px;
+    row-gap: 25px;
+    column-gap: 25px;
+  }
+  .div1{
+    background-image: url(./Image/pic-1.png);
+    background-size:cover;
+    width: 200px;
+    height: 230px;
+    border-radius: 25px;
+    transition-duration:1s;
+  }
+  .div1:hover{
+   transform: translateY(-10px);
+  }
+  .div2{
+    background-image: url(./Image/pic-2.png);
+    background-size:cover;
+    width: 200px;
+    height: 230px;
+    border-radius: 25px;
+    transition-duration:0.5s;
+  }
+  .div2:hover{
+    transform: translateY(-10px);
+   }
+  .div3{
+    background-image: url(./Image/pic-3.png);
+    background-size:cover;
+    width: 200px;
+    height: 230px;
+    border-radius: 25px;
+    transition-duration:1s;
+  }
+  .div3:hover{
+    transform: translateY(-10px);
+   }
+  .div4{
+    background-image: url(./Image/pic-4.png);
+    background-size:cover;
+    width: 200px;
+    height: 230px;
+    border-radius: 25px;
+    transition-duration:1s;
+  }
+  .div4:hover{
+    transform: translateY(-10px);
+   }
+   .text1{
+    color: white;
+    margin-left: 20px;
+    font-size: larger;
+   }
+   .text2{
+    font-size:x-small;
+   }
+   @media (min-width:320px) and (max-width:480px){
+    body{
+      background-image: url(./Image/shara\ desert.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 700px;
+  }
+  .logo{
+      margin-left: 25px;
+      margin-top: 25px;
+  }
+  #btn{
+      display: flex;
+      flex-direction: column;
+      float: right;
+      margin: 10px;
+  }
+  .hra{
+      margin: 10px;
+      margin-top: -10px;
+      margin-right: 1px;
+      color: white;
+      font-size: large;
+  }
+  .HB{
+    margin-left: 85px;
+   margin-top: -45px;
+  padding: 5px;
+  }
+  #sahara{
+      position: relative;
+      margin-left: 25px;
+      color: white;
+      margin-top: 25px;
+
+  }
+  h1{
+      font-size:xx-large;
+  }
+  .para{
+      position: absolute;
+      font-size: small;
+      margin-top: -10px;
+      word-spacing: 5px;
+  }
+  .btn1{
+      border: 2px solid white;
+      border-radius: 25px;
+      width: 150px;
+      height: 40px;
+      margin-top: 75px;
+      font-weight: bold;
+  }
+  .grid-container {
+      display: grid;
+      grid-template-areas: 
+      "div1"
+      "div2"
+      "div3"
+      "div4"
+      ;
+      margin-left: 80px;
+      margin-top: 50px;
+      row-gap: 25px;
+      column-gap: 25px;
+    }
+    .div1{
+      background-image: url(./Image/pic-1.png);
+      background-size:cover;
+      width: 200px;
+      height: 230px;
+      border-radius: 25px;
+      transition-duration:1s;
+    }
+    .div1:hover{
+     transform: translateY(-10px);
+    }
+    .div2{
+      background-image: url(./Image/pic-2.png);
+      background-size:cover;
+      width: 200px;
+      height: 230px;
+      border-radius: 25px;
+      transition-duration:0.5s;
+    }
+    .div2:hover{
+      transform: translateY(-10px);
+     }
+    .div3{
+      background-image: url(./Image/pic-3.png);
+      background-size:cover;
+      width: 200px;
+      height: 230px;
+      border-radius: 25px;
+      transition-duration:1s;
+    }
+    .div3:hover{
+      transform: translateY(-10px);
+     }
+    .div4{
+      background-image: url(./Image/pic-4.png);
+      background-size:cover;
+      width: 200px;
+      height: 230px;
+      border-radius: 25px;
+      transition-duration:1s;
+    }
+    .div4:hover{
+      transform: translateY(-10px);
+     }
+     .text1{
+      color: white;
+      margin-left: 20px;
+      font-size: larger;
+     }
+     .text2{
+      font-size:x-small;
+     }
+}
+ @media (min-width:481px) and (max-width:1000px)
+    {
+   body{
+      background-image: url(./Image/shara\ desert.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 700px;
+  }
+  .logo{
+      margin-left: 55px;
+      margin-top: 25px;
+  }
+  #btn{
+      display: flex;
+      float: right;
+      margin: 30px;
+  }
+  .hra{
+      margin: 10px;
+      margin-top: -10px;
+      margin-right: 25px;
+      color: white;
+      font-size: large;
+  }
+  #sahara{
+      position: relative;
+      margin-left: 55px;
+      color: white;
+      margin-top: -15px;
+
+  }
+  h1{
+      font-size:xx-large;
+  }
+  .para{
+      position: absolute;
+      font-size: large;
+      margin-top: -10px;
+      word-spacing: 5px;
+  }
+  .btn1{
+      border: 2px solid white;
+      border-radius: 25px;
+      width: 200px;
+      height: 40px;
+      margin-top: 75px;
+      font-weight: bold;
+  }
+  .grid-container {
+      display: grid;
+      grid-template-areas: 
+      "div1"
+      "div2"
+      "div3"
+      "div4"
+      ;
+      margin-left: 150px;
+      margin-top: 50px;
+      row-gap: 25px;
+      column-gap: 25px;
+    }
+    .div1{
+      background-image: url(./Image/pic-1.png);
+      background-size:cover;
+      width: 400px;
+      height: 230px;
+      border-radius: 25px;
+      transition-duration:1s;
+    }
+    .div1:hover{
+     transform: translateY(-10px);
+    }
+    .div2{
+      background-image: url(./Image/pic-2.png);
+      background-size:cover;
+      width: 400px;
+      height: 230px;
+      border-radius: 25px;
+      transition-duration:0.5s;
+    }
+    .div2:hover{
+      transform: translateY(-10px);
+     }
+    .div3{
+      background-image: url(./Image/pic-3.png);
+      background-size:cover;
+      width: 400px;
+      height: 230px;
+      border-radius: 25px;
+      transition-duration:1s;
+    }
+    .div3:hover{
+      transform: translateY(-10px);
+     }
+    .div4{
+      background-image: url(./Image/pic-4.png);
+      background-size:cover;
+      width: 400px;
+      height: 230px;
+      border-radius: 25px;
+      transition-duration:1s;
+    }
+    .div4:hover{
+      transform: translateY(-10px);
+     }
+     .text1{
+      color: white;
+      margin-left: 20px;
+      font-size: larger;
+     }
+     .text2{
+      font-size:x-small;
+     }
+} 
