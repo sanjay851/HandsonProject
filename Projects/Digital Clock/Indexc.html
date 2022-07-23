@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="styleC.css">
+</head>
+    <body>
+    <img src="./Image/clock_logo.png" alt="" class="clocklogo">
+    <br><br>
+    <div id="mainbox">
+        <div class="border"></div>
+        <div class="daynight">
+            <img src="./Image/wake_up.svg" alt="">
+            <div class="border1"></div>
+            &nbsp;&nbsp;
+            <span class="WUT">Set Wake up Time</span>
+            <select name="select" id="waketime">
+                <option value="12AM">12AM - 1AM</option>
+                <option value="01AM">1AM - 2AM</option>
+                <option value="02AM">2AM - 3AM</option>
+                <option value="03AM">3AM - 4AM</option>
+                <option value="04AM">4AM - 5AM</option>
+                <option value="05AM">5AM - 6AM</option>
+                <option value="06AM">6AM - 7AM</option>
+                <option value="07AM">7AM - 8AM</option>
+                <option value="08AM">8AM - 9AM</option>
+                <option value="09AM">9AM - 10AM</option>
+                <option value="10AM">10AM - 11AM</option>
+                <option value="11AM">11AM - 12PM</option>
+            </select>
+        </div>
+        <div class="daynight">
+            <img src="./Image/lunch_time.svg" alt="">
+            <div class="border1"></div>
+            &nbsp;&nbsp;
+            <span class="WUT">Set lunch time</span>
+            <select name="select" id="lunchtime">
+                <option value="12PM">12PM - 1PM</option>
+                <option value="01PM">1PM - 2PM</option>
+                <option value="02PM">2PM - 3PM</option>
+                <option value="03PM">3PM - 4PM</option>
+            </select>
+        </div>
+        <div class="daynight">
+            <img src="./Image/nap_time.svg" alt="">
+            &nbsp;&nbsp;
+            <span class="WUT">Set nap time</span>
+            <select name="select" id="naptime">
+                <option value="04PM">4PM - 5PM</option>
+                <option value="05PM">5PM - 6PM</option>
+                <option value="06PM">6PM - 7PM</option>
+                <option value="07PM">7PM - 8PM</option>
+            </select>
+        </div>
+        <div class="daynight">
+            <img src="./Image/night-black-sky-with-moon-stars_1017-26915.webp" 
+            alt="" height="30px" width="30px">
+            &nbsp;&nbsp;
+            <span class="WUT">Set night time</span>
+            <select name="select" id="nightTime">
+                <option value="08PM">8PM - 9PM</option>
+                <option value="09PM">9PM - 10PM</option>
+                <option value="10PM">10PM - 11PM</option>
+                <option value="11PM">11PM - 12AM</option>
+            </select>
+        </div>  
+    </div><br>
+    <div id="box1"></div>
+    <div id="box1message"></div>
+    <div ></div>
+    <br>
+        <div id="bx1" onmouseenter="alarmEnter()" onmouseleave="alarmLeave()">Set Alarm</div>
+        <div id="bx2">
+            <span>Wake Up Time : </span>
+            <br>
+            <span>Lunch Time :</span>
+            <br>
+            <span>Nap Time : </span>
+            <br>
+            <span>Night Time : </span>
+        </div>
+         <!-- <div onload="showTime()"></div>  -->
+    <div id="clockwork">
+        <div class="clockback"></div>
+        <div class="clockback1"></div>
+    </div>
+        <div class="time-text">TIME</div>
+        <div id="hoursbox">
+            <div class="hours-number">00</div>
+            <div class="hoursText">hours</div>
+        </div>
+        <div class="hoursColon">:</div>
+        <div id="minsbox">
+            <div class="minutes-number">00</div>
+            <div class="minsText">mins</div>
+        </div>
+        <div class="minsColon">:</div>
+        <div id="secsbox">
+            <div class="seconds-number">00</div>
+            <div class="secsText">secs</div>
+        </div>
+        <div id="ampmtextbox">
+            <div class="am-pm">AM</div>
+        </div>
+        <div id="messagebox"></div>
+        <div id="updatemessagebox"></div>
+        <div id="evimg">
+         <!-- <img src="./Image/nightimg.svg" alt="" width="555px" height="310px"> -->
+        </div>
+    <script src="DigitalClock.js"></script>
+</body>
+</html>
