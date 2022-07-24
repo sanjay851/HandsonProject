@@ -98,7 +98,7 @@ body{
     top: 388px;
     font: normal normal 900 19px/34px Bauhaus Hv BT;
     color: #FFFFFF;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     opacity: 1;
     font-family:'Times New Roman', Times, serif;
 }
