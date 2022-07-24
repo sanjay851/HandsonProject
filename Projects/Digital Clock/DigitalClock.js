@@ -82,20 +82,6 @@ document.getElementsByClassName("hours-number")[0].innerText = h;
 document.getElementsByClassName("minutes-number")[0].innerText = m;
 document.getElementsByClassName("seconds-number")[0].innerText = s;
 document.getElementsByClassName("am-pm")[0].innerText = session;
-
-// according to time below conditions work:-
-// --------------------------------------------------------------------------------
-let element1 = document.getElementById('box1message');
-let element2 = document.getElementById('updatemessagebox');
-// ---------------------------------------------------------------------------------
-// for imge change location:
-let imageOne = document.createElement('img');
- imageOne.setAttribute('src','');
-// imageOne.setAttribute('width',"555px");
-// imageOne.setAttribute('backgroundRepeat',"no-repeat");
-document.querySelector('#evimg').appendChild(imageOne);
-// document.getElementById("evimg").style.background-repeat: no-repeat;
-// -----------------------------------------------------------------------------------
 if(h<=12 && session=="AM")
     {
         element1.innerText = 'GOOD MORNING!! WAKE UP !!';
@@ -126,7 +112,20 @@ if(h>=04 && session=="PM")
             imageOne.setAttribute('width', '560px');
         }
 }
- 
 setInterval(showTime ,1000)
+// for imge change location:
+let imageOne = document.createElement('img');
+ imageOne.setAttribute('src','');
+// imageOne.setAttribute('width',"555px");
+// imageOne.setAttribute('backgroundRepeat',"no-repeat");
+document.querySelector('#evimg').appendChild(imageOne);
+// document.getElementById("evimg").style.background-repeat: no-repeat;
+// according to time below conditions work:-
+// --------------------------------------------------------------------------------
+let element1 = document.getElementById('box1message');
+let element2 = document.getElementById('updatemessagebox');
+// ---------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------
+
 
 
