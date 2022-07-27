@@ -52,42 +52,60 @@ document.getElementById('bx2').innerHTML = `
 // -------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------
 //-------------------For Updating Time-------------------------------------------------
-function showTime(){
-    var date = new Date();//new Date returns the browser’s date along with the time zone
-    var h = date.getHours(); // 0 - 23
-    var m = date.getMinutes(); // 0 - 59
-    var s = date.getSeconds(); // 0 - 59
-     session = "AM";
-    if(h == 0)
-        {
-            h = 12;
-            session = "AM";
-        }
-//---------------------- for 12 hours formate-------------------------------------------
-    if(h > 12)
-        {
-            h = h - 12;
-            session = "PM";
-        }
-// --------------for adding 0 before currentTime(using  ternary operators)---------------
-        h = (h < 10) ? "0" + h : h;
-        m = (m < 10) ? "0" + m : m;
-        s = (s < 10) ? "0" + s : s;
+// function showTime(){
+//     var date = new Date();//new Date returns the browser’s date along with the time zone
+//     var h = date.getHours(); // 0 - 23
+//     var m = date.getMinutes(); // 0 - 59
+//     var s = date.getSeconds(); // 0 - 59
+//      session = "AM";
+//     if(h == 0)
+//         {
+//             h = 12;
+//             session = "AM";
+//         }
+// //---------------------- for 12 hours formate-------------------------------------------
+//     if(h > 12)
+//         {
+//             h = h - 12;
+//             session = "PM";
+//         }
+// // --------------for adding 0 before currentTime(using  ternary operators)---------------
+//         h = (h < 10) ? "0" + h : h;
+//         m = (m < 10) ? "0" + m : m;
+//         s = (s < 10) ? "0" + s : s;
 // -------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------
 // var time = h + ":" + m + ":" + s + " " + session;
 // -------------------------------------------------------------------------------------
+//Javascript clock code (24 hour):-
+function showTime() {
+    let date = new Date(); 
+    let hh = date.getHours();
+    let mm = date.getMinutes();
+    let ss = date.getSeconds();
+    let session = "AM";
+  
+      
+    if(hh > 12){
+        session = "PM";
+     }
+  
+     hh = (hh < 10) ? "0" + hh : hh;
+     mm = (mm < 10) ? "0" + mm : mm;
+     ss = (ss < 10) ? "0" + ss : ss;
+      
+    //  let time = hh + ":" + mm + ":" + ss + " " + session;
 // -------------------------------------------------------------------------------------
-document.getElementsByClassName("hours-number")[0].innerText = h;
-document.getElementsByClassName("minutes-number")[0].innerText = m;
-document.getElementsByClassName("seconds-number")[0].innerText = s;
+document.getElementsByClassName("hours-number")[0].innerText = hh;
+document.getElementsByClassName("minutes-number")[0].innerText = mm;
+document.getElementsByClassName("seconds-number")[0].innerText = ss;
 document.getElementsByClassName("am-pm")[0].innerText = session;
 // -------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------
 let element1 = document.getElementById('box1message');
 let element2 = document.getElementById('updatemessagebox');
 // for image change according to time
-let nowTime = h + session;//for store time in nowTime
+let nowTime = hh + session;//for store time in nowTime
 if(nowTime === wakeUpTime)//if(h<=12 && session=="AM")
     {
         element1.innerText = 'GOOD MORNING!! WAKE UP !!';
@@ -128,8 +146,4 @@ let imageOne = document.createElement('img');
 document.querySelector('#evimg').appendChild(imageOne);
 // document.getElementById("evimg").style.background-repeat: no-repeat;
 // according to time below conditions work:-
-// --------------------------------------------------------------------------------
-
-
-
-
+// --------------------------------------------------------------------------------------
