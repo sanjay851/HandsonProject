@@ -1,0 +1,214 @@
+body {
+    background-color: black;
+}
+
+#main {
+    width: 70%;
+    margin-left: 15%;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.header {
+    height: 14%;
+    box-sizing: border-box;
+    padding: 10px;
+    align-items: center;
+}
+
+#head {
+    font-size: 300%;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    color: white;
+}
+
+#tasks {
+    float: right;
+    font-size: 200%;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 3%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-plus-circle {
+    font-size: 35px;
+    margin-top: 2px;
+    color: blue;
+}
+
+.addItem i {
+    font-size: 30px;
+    color: orangered;
+}
+
+
+/* Popup List */
+
+.popup_list {
+    text-align: center;
+    /* border: 2px solid rgb(233, 95, 95); */
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+    top: 35%;
+    left: 36%;
+    z-index: 1;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.add {
+    color: red;
+    font-size: x-large;
+}
+.textBoxList, .textBoxItem {
+    font-size: large;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
+
+.add-button {
+    border: none;
+    color: red;
+    font-size: 17px;
+    width: 90px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    cursor: pointer;
+}
+
+.close-button {
+    border: none;
+    font-size: 17px;
+    height: 40px;
+    width: 90px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+    cursor: pointer;
+}
+#title{
+    color: yellowgreen;
+    font-size: x-large;
+    margin-top: -5px;
+}
+
+/* Contains Slots */
+
+
+.slots {
+    width: 200px;
+    min-height: 300px;
+    border: 1px solid rgb(233, 95, 95);
+    margin-bottom: 50px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.contains-slots {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+/* Property Inside Slots */
+
+.list_head {
+    text-align: center;
+    font-size: 22px;
+    color: rgb(207, 15, 15);
+    cursor: pointer;
+}
+
+.addItem {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+/* text in trip work */
+.buttonForItem{
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: greenyellow;
+}
+.buttonForItem:hover{
+    cursor: pointer;
+}
+.addItemsInsideSlot{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Navigate Separate Slot */
+
+
+#navTitle{
+    min-height: 500px;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+}
+.fa-arrow-circle-left {
+    font-size: 35px;
+    margin-top: 2px;
+    color: blue;
+    position: absolute;
+    left: 0; 
+    bottom: 10px;
+    cursor: pointer;
+}
+#back{
+    font-size: 34px;
+    color: white;
+}
+
+#headOfSeparateSlot {
+    border: 2px solid black;
+    margin-top: 50px;
+    height: 100px;
+    box-sizing: border-box;
+    position: relative;
+}
+#tripTitleHeader{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+}
+#addSlotInHome{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+#containsSeparateSlot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

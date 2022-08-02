@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App JS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/2c5b219f08.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="header">
+            <div id="head"> <strong>Tasks</strong> Lists</div>
+            <div id="tasks"> 
+                 <i class="fas fa-plus-circle hovering"></i><span class="item">  Add List</span> 
+            </div>
+        </div>
+        <div id="no-items" style="color: white"><h1>No Items in Todo List</h1></div>
+        <div class="contains-slots">
+            <!-- Contains Slots-->
+          </div>
+    </div>
+    <div class="popup_list"> 
+         <!-- Contains Popup  -->
+    </div>
+    <div id="navTitle">
+        <!-- Click The title to see in separate Page -->
+        <div id="headOfSeparateSlot">
+            <i class="fas fa-arrow-circle-left hovering" id="navigateToHome"><span id='back'>  Back</span></i>
+            <p id="tripTitleHeader"></p>
+            <i class="fas fa-plus-circle hovering" id="addSlotInHome"></i>
+        </div><br><br><br>
+        <div id="containsSeparateSlot">
+            <!-- Contains the Separated Slot -->
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
