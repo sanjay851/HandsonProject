@@ -42,7 +42,7 @@ a {
     margin-top: 2px;
     color: blue;
 }
-
+/* FOR CHILD NODE BUTTON */
 .addItem i {
     font-size: 30px;
     color: orangered;
@@ -53,7 +53,6 @@ a {
 
 .popup_list {
     text-align: center;
-    /* border: 2px solid rgb(233, 95, 95); */
     width: 400px;
     height: 200px;
     box-sizing: border-box;
@@ -65,18 +64,24 @@ a {
     border-radius: 12px;
     background-color: white;
 }
-
+/* for popup box heading  when click add button on front page */
 .add {
     color: red;
     font-size: x-large;
 }
-.textBoxList, .textBoxItem {
+/* for input text box width, height */
+.textBoxList{
     font-size: large;
     text-align: center;
     width: 300px;
     height: 25px;
 }
-
+.textBoxItem{
+     font-size: large;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
 .add-button {
     border: none;
     color: red;
@@ -92,7 +97,6 @@ a {
     left: 80px;
     cursor: pointer;
 }
-
 .close-button {
     border: none;
     font-size: 17px;
@@ -107,15 +111,14 @@ a {
     right: 80px;
     cursor: pointer;
 }
-#title{
-    color: yellowgreen;
-    font-size: x-large;
-    margin-top: -5px;
+/* Contains Slots for parent node and child node*/
+.contains-slots {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
 }
-
-/* Contains Slots */
-
-
 .slots {
     width: 200px;
     min-height: 300px;
@@ -127,15 +130,6 @@ a {
     position: relative;
     padding-bottom: 35px;
 }
-
-.contains-slots {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-
 
 /* Property Inside Slots */
 
@@ -166,9 +160,7 @@ a {
     font-size: 30px;
 }
 
-/* Navigate Separate Slot */
-
-
+/* Navigate Separate Slot Heading*/
 #navTitle{
     min-height: 500px;
     width: 70%;
@@ -188,7 +180,7 @@ a {
     font-size: 34px;
     color: white;
 }
-
+/* when click on title of child node then open in seprate slot whith heading  */
 #headOfSeparateSlot {
     border: 2px solid black;
     margin-top: 50px;
@@ -202,6 +194,7 @@ a {
     color: white;
     font-weight: 800;
 }
+/* for + icon in seprate slot */
 #addSlotInHome{
     position: absolute;
     right: 0;
